@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Smartlook Analytics",
+    name: "SmartlookAnalytics",
     platforms: [
         .iOS(.v13)
     ],
