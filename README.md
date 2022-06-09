@@ -1,4 +1,4 @@
-# Smartlook Analytics Swift Package
+# Smartlook Analytics
 
 The official Swift package for Smartlook Analytics iOS SDK, a mobile analytics solution.
 
