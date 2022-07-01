@@ -2,6 +2,8 @@
 
 The official Swift package for Smartlook Analytics iOS SDK, a mobile analytics solution.
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsmartlook%2Fanalytics-swift-package%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/smartlook/analytics-swift-package) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsmartlook%2Fanalytics-swift-package%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/smartlook/analytics-swift-package)
+
 To make it running, edit your `AppDelegate` as follows:
 
 ```
