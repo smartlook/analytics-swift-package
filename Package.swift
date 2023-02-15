@@ -1,12 +1,12 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
     name: "Smartlook Analytics",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
+        .tvOS(.v13),
+        .macCatalyst(.v13)
     ],
     products: [
         .library(
@@ -18,9 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SmartlookAnalytics",
-            url: "https://sdk.smartlook.com/ios/smartlook-ios-sdk-2.1.1.157.zip",
-            checksum: "d87890d6fff970751f995e6d630ceeffa777b5f519714f8bdbc1567eb20670de"
+            url: "https://sdk.smartlook.com/ios/smartlook-ios-sdk-2.1.2.216.zip",
+            checksum: "d1859691f2911ce3ac6ee474cb77c40893af049c78bf018f6235a8fb0ac1914e"
         ),
     ]
 )
-
