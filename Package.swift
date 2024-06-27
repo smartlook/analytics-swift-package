@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -6,6 +6,7 @@ let package = Package(
     platforms: [
         .iOS(.v13),
         .tvOS(.v13),
+        .visionOS(.v1),
         .macCatalyst(.v13)
     ],
     products: [
@@ -18,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SmartlookAnalytics",
-            url: "https://sdk.smartlook.com/ios/smartlook-ios-sdk-2.2.11.248.zip",
-            checksum: "a42c71fec1783088788dc1a3953a082dbb74a76d78aa7aef8022ea11e54ebb16"
+            url: "https://sdk.smartlook.com/ios/smartlook-ios-sdk-2.2.12.249.zip",
+            checksum: "2d35a3bc381e5a56a8d02871cb2b3bd903e81afd80536b29c4d08327243b83f3"
         ),
     ]
 )
